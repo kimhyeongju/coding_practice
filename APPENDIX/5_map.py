@@ -31,7 +31,13 @@ n, m, k = map(int, input("n, m ,k 입력(콤마로 구분): ").split(","))
 print(f"n={n}, m={m}, k={k}")
 
 """
-입력 수가 많은 경우 input()함수는 동작이 느려서 시간 초과가 될 수 있다.
+입력 수가 많은 경우 input()함수는 동작이 느려서 시간이 초과 될 수 있다.
 이 경우 sys 라이브러리에 정의되어 있는 sys.stdin.readline()을 사용한다.
+input() == sys.stdin.readline()
+여기에는 개행문자(줄 바꿈 \n)가 입력되므로, 이를 없애기 위해 rstrip을 사용해준다.
 
 """
+
+import sys
+data = sys.stdin.readline().rstrip()
+print(data)
