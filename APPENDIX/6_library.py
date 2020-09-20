@@ -8,10 +8,12 @@ result = eval("2+3*6")
 print(result)
 
 # sort()와 sorted()
+import copy
+
 array = [2,6,5,1,7,9,11]
 result1 = sorted(array)
 result2 = sorted(array, reverse=True)
-result3 = array
+result3 = copy.deepcopy(array)
 array.sort()
 result4 = array
 print(result1, result2, result3, result4, sep="\n")
