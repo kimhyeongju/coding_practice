@@ -14,14 +14,22 @@
 import sys
 from random import randint
 
-N = int(input("입력: "))
-M = int(input("입력: "))
-# N,M = list(map(int,sys.stdin.readline()))
+
+N,M = map(int,sys.stdin.readline().split())
 cards = []
+
+result_card = 0
 
 for i in range(N):
     cards.append([])
     for _ in range(M):
         cards[i].append(randint(1,100))
 print(cards)
+
+for i in range(N-1):
+    row_min_cards = min(cards[i])
+    if row_min_cards < min(cards[i+1]):
+        row_min_cards = min(cards[i+1])
+
+print(row_min_cards)
 
