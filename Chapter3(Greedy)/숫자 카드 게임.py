@@ -9,11 +9,10 @@
 """
 
 """
---- 혼자 풀어본 것 ---
-"""
+--- 내가 풀어본 것 ---
+
 import sys
 from random import randint
-
 
 N,M = map(int,sys.stdin.readline().split())
 cards = []
@@ -33,3 +32,18 @@ for i in range(N-1):
 
 print(row_min_cards)
 
+"""
+
+# min() 함수를 이용하는 답안
+import sys
+n, m = map(int,sys.stdin.readline().split())
+result = 0
+
+for i in range(n):
+    data = list(map(int,sys.stdin.readline().split()))
+    # 현재 줄에서 '가장 작은 수' 찾기
+    min_value = min(data)
+    # '가장 작은 수'들 중에서 가장 큰 수 찾기
+    result = max(result, min_value)
+
+print(result)
