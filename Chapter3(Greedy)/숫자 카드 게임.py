@@ -13,6 +13,11 @@
 """
 import sys
 
-N,M = list(map(int,sys.stdin.readline()))
+N = int(input("입력: "))
+# N,M = list(map(int,sys.stdin.readline()))
+cards = []
 
-# test123
+for i in range(N):
+    cards.append(i)
+print(cards)
+
