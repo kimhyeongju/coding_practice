@@ -26,4 +26,4 @@ start_time = time.time()
 array.sort()
 
 end_time = time.time()
-print(f"기본 정렬 라이브러리 시간 측정: {end_time - start_time:.5f}초")
+print(f"기본 정렬 라이브러리 시간 측정: {end_time - start_time:.6f}초")

@@ -26,11 +26,14 @@ while N > 1:
         N = N - 1
         count = count + 1
 end_ = time.time()
-print(end_ - start_)    # 걸린시간: 4.25 @(100000,9)
+print(end_ - start_)
 
 print(count)
 
 """
+
+"""
+--- 책에 있는 답 1 ---
 
 import time
 start_ = time.time()
@@ -54,10 +57,30 @@ while n > 1:
     result += 1
 
 end_ = time.time()
-print(end_ - start_)  # 걸린시간: 10.64 @(100000,9)
+
+print(end_ - start_)
 
 print(result)
 
-# --- 내가 푼 게 실행시간이 더 적게 걸림 ---
+"""
 
+# --- 책에 있는 답 2 ---
 
+n, k = map(int, input().split())
+result = 0
+
+while True:
+    # N == K로 나누어떨어지는 수가 될 때까지 1씩 빼기
+    target = (n // k ) * k
+    result += (n - target)
+    n = target
+    # N이 K보다 작을때(더 이상 나눌 수 없을 때) 반복문 탈출
+    if n < k:
+        break
+    # k로 나누기
+    result += 1
+    n //= k
+
+# 마지막으로 남은 수에 대하여 1씩 빼기
+result += (n - 1)
+print(result)
