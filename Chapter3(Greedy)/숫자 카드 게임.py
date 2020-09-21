@@ -12,12 +12,16 @@
 --- 혼자 풀어본 것 ---
 """
 import sys
+from random import randint
 
 N = int(input("입력: "))
+M = int(input("입력: "))
 # N,M = list(map(int,sys.stdin.readline()))
 cards = []
 
 for i in range(N):
-    cards.append(i)
+    cards.append([])
+    for _ in range(M):
+        cards[i].append(randint(1,100))
 print(cards)
 
