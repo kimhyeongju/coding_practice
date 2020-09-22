@@ -9,9 +9,8 @@ N X N 공간을 벗어나면 무시된다.
 
 """
 --- 내가 풀어본 답 ---
-"""
 
-n = map(int, input().split())
+n = int(input())
 move = list(input().split())
 x,y = 1,1
 
@@ -40,4 +39,6 @@ for i in move:
         else:
             x += 1
 print(x,y, sep=" ")
+
+"""
 
