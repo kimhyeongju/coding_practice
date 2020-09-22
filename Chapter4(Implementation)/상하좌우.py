@@ -43,6 +43,7 @@ print(x,y, sep=" ")
 """
 
 # 교재 답
+
 n = int(input())
 x, y = 1, 1
 plans = input().split()
@@ -55,7 +56,7 @@ move_types = ['L','R','U','D']
 for plan in plans:
     # 이동 후 좌표 구하기
     for i in range(len(move_types)):
-        if plan == move_types[i]:
+        if plan == move_types[i]:   # 입력받은 값에 대하여...
             nx = x + dx[i]
             ny = y + dy[i]
     # 범위 벗어날 경우 무시
@@ -64,4 +65,3 @@ for plan in plans:
     x,y = nx, ny
 
 print(x,y,sep=" ")
-
