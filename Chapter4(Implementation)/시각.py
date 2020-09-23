@@ -5,7 +5,6 @@
 """
 """
 --- 내가 푼 답 ---
-"""
 
 n = int(input())
 
@@ -32,12 +31,28 @@ for h in range(n+1):
                     break
                 # print(temp)
 print(count)
-            # 이렇게 하면 안됨(서로 다른 i 에 대해 두번 카운트 함)
+
+            # 아래 처럼 하면 안됨(서로 다른 i 에 대해 두번 카운트 함)
             # for i in range(10):
             #     if sec == (i * 10) + 3 or sec == 30 + i or min == (i * 10) + 3 or min == 30 + i or hour == (i * 10) + 3 or hour == 30 + i:
             #         count += 1
             # print(hour,min,sec,sep=":")
             # print(count)
+
+"""
+# 교재 답
+
+h = int(input())
+
+count = 0
+for i in range(h+1):
+    for j in range(60):
+        for k in range(60):
+            # 매 시각 안에 '3'이 포함되어 있다면 카운트 증가
+            if '3' in str(i) + str(j) + str(k):
+                count += 1
+print(count)
+
 
 
 
