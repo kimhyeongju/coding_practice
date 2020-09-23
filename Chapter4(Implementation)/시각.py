@@ -7,6 +7,7 @@
 --- 내가 푼 답 ---
 """
 
+n = int(input())
 
 sec = 0
 min = 0
@@ -14,7 +15,7 @@ hour = 0
 count = 0
 
 
-for h in range(12):
+for h in range(n+1):
     sec = 0
     min= 0
     hour = h
@@ -24,11 +25,17 @@ for h in range(12):
         for s in range(60):
             sec = s
 
-            # for i in range(6):
-            #     if sec == (i * 10) + 3 or min == (i * 10) + 3 or hour == (i * 10) + 3:
+            temp = str(hour) + str(min) + str(sec)
+            for i in temp:
+                if i == "3":
+                    count += 1
+                    break
+                # print(temp)
+print(count)
+            # for i in range(10):
+            #     if sec == (i * 10) + 3 or sec == 30 + i or min == (i * 10) + 3 or min == 30 + i or hour == (i * 10) + 3 or hour == 30 + i:
             #         count += 1
-
-            print(hour,min,sec,sep=":")
-            print(count)
+            # print(hour,min,sec,sep=":")
+            # print(count)
 
 
