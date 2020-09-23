@@ -8,9 +8,16 @@
 """
 
 
-time = [[],[],[],[],[],[]]
+time = [0,0,0]
 count = 0
 
-for i in [5,4,3,2,1,0]:
-    for j in range(10):
-        time[i].append(j)
+
+for _ in range(60):
+    time[2] += 1
+    for i in range(6):
+        if time[2] == (i*10) + 3:
+            count += 1
+    print(time)
+    print(count)
+
+
