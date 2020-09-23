@@ -32,10 +32,12 @@ for h in range(n+1):
                     break
                 # print(temp)
 print(count)
+            # 이렇게 하면 안됨(서로 다른 i 에 대해 두번 카운트 함)
             # for i in range(10):
             #     if sec == (i * 10) + 3 or sec == 30 + i or min == (i * 10) + 3 or min == 30 + i or hour == (i * 10) + 3 or hour == 30 + i:
             #         count += 1
             # print(hour,min,sec,sep=":")
             # print(count)
+
 
 
