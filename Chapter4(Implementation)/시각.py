@@ -8,16 +8,27 @@
 """
 
 
-time = [0,0,0]
+sec = 0
+min = 0
+hour = 0
 count = 0
 
 
-for _ in range(60):
-    time[2] += 1
-    for i in range(6):
-        if time[2] == (i*10) + 3:
-            count += 1
-    print(time)
-    print(count)
+for h in range(12):
+    sec = 0
+    min= 0
+    hour = h
+    for m in range(60):
+        sec = 0
+        min = m
+        for s in range(60):
+            sec = s
+
+            # for i in range(6):
+            #     if sec == (i * 10) + 3 or min == (i * 10) + 3 or hour == (i * 10) + 3:
+            #         count += 1
+
+            print(hour,min,sec,sep=":")
+            print(count)
 
 
