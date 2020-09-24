@@ -10,3 +10,32 @@
 --- 내가 풀어 본 것 ---
 """
 
+coor = input()
+row = coor[0]
+col = coor[1]
+
+if row == 'a' or row == 'h':
+    if col == 1 or col == 8:
+        result = 2
+    elif col == 2 or col == 7:
+        result = 3
+    else:
+        result = 4
+
+if row == 'b' or row == 'g':
+    if col == 1 or col == 8:
+        result = 3
+    elif col == 2 or col == 7:
+        result = 4
+    else:
+        result = 6
+
+else:
+    if col == 1 or col == 8:
+        result = 4
+    elif col == 2 or col == 7:
+        result = 6
+    else:
+        result = 8
+
+print(result)
