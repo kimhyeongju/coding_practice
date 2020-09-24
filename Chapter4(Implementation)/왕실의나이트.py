@@ -30,7 +30,7 @@ if row == 'b' or row == 'g':
     else:
         result = 6
 
-else:
+if row == 'c' or row == 'd' or row == 'e' or row == 'f':
     if col == 1 or col == 8:
         result = 4
     elif col == 2 or col == 7:
@@ -38,6 +38,4 @@ else:
     else:
         result = 8
 
-print(row)
-print(col)
 print(result)
