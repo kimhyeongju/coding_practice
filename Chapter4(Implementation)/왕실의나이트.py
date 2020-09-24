@@ -12,7 +12,7 @@
 
 coor = input()
 row = coor[0]
-col = coor[1]
+col = int(coor[1])
 
 if row == 'a' or row == 'h':
     if col == 1 or col == 8:
@@ -38,4 +38,6 @@ else:
     else:
         result = 8
 
+print(row)
+print(col)
 print(result)
