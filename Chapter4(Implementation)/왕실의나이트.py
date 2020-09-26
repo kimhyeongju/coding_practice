@@ -8,7 +8,6 @@
 """
 """
 --- 내가 풀어 본 것 ---
-"""
 
 coor = input()
 row = coor[0]
@@ -39,3 +38,7 @@ if row == 'c' or row == 'd' or row == 'e' or row == 'f':
         result = 8
 
 print(result)
+"""
+
+# 교재 답
+
