@@ -42,3 +42,8 @@ print(result)
 
 # 교재 답
 
+# 나이트의 현재 위치
+input_data = input()
+row = int(input_data[1])
+column = int(ord(input_data[0])) - int(ord('a')) + 1
+print(column)
