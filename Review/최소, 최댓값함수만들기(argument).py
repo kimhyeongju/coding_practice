@@ -6,7 +6,6 @@ def findMin(*x):
             min = i
     return min
 
-print(findMin(1,3,6,4,-1))
 
 def findMax(*x):
     max = 0
@@ -15,4 +14,8 @@ def findMax(*x):
             max = i
     return max
 
-print(findMax(1,3,6,4,10))
+a = list(map(int,input("최솟값: ").split(" ")))
+b = list(map(int,input("최댓값: ").split(" ")))
+
+print(findMin(*a))
+print(findMax(*b))
