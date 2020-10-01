@@ -18,5 +18,21 @@ def main():
     #     count += 1
     # print(count)
 
+    def hangman(i,lines):
+        for line in lines[:i]:
+            print(line)
+
+    for i in range(1,7):
+        inp = int(input(f"{i}번째 입력: "))
+        if inp > rnd:
+            print("큽니다.")
+            hangman(i,n)
+        elif inp < rnd:
+            print("작습니다.")
+            hangman(i,n)
+        else:
+            print("정답")
+            break
+
 
 main()
