@@ -25,14 +25,13 @@ def main():
     for i in range(1,7):
         inp = int(input(f"{i}번째 입력: "))
         if inp > rnd:
-            print("큽니다.")
+            print(f"{inp}보다 작음")
             hangman(i,n)
         elif inp < rnd:
-            print("작습니다.")
+            print(f"{inp}보다 큼")
             hangman(i,n)
         else:
             print("정답")
             break
-
 
 main()
