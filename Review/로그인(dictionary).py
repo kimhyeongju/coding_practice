@@ -20,4 +20,20 @@ def check_login(user_id, user_pw):
         print("비밀번호 틀림")
         return False
 
+def print_result(result):
+    if result:
+        print("로그인 성공")
+    else:
+        print("로그인 실패")
 
+def main():
+    result = False
+
+    for _ in range(3):
+        id, password = get_user_info()
+        result = check_login(id,password)
+        if result:
+            break
+    print_result(result)
+
+main()
