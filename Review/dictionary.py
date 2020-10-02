@@ -19,3 +19,17 @@ print(dic.keys())
 print(dic.values())
 print(dic.items(),'\n') # 튜플 목록 리턴
 
+
+keylist = dic.keys()
+for key in keylist:
+    print(key,dic[key],'\n')
+
+# 사전 업데이트
+dic2={
+    'student':'학생',
+    'teacher':'선생님',
+    'book':'서적'
+}
+
+dic.update(dic2)    # 덮어쓰기..?
+print(dic)
