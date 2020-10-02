@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Review/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Review/로그인(dictionary).py" beforeDir="false" afterPath="$PROJECT_DIR$/Review/로그인(dictionary).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="C:\Users\JinHengZhu\Desktop\coding_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dictionary">
+  <component name="RunManager" selected="Python.로그인(dictionary)">
     <configuration name="HANGMAN게임(splitlines,pop)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="가위바위보게임(random)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="로그인(dictionary)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +172,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\JinHengZhu\Desktop\coding_practice\Review\가위바위보게임(random).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Review/로그인(dictionary).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.로그인(dictionary)" />
         <item itemvalue="Python.dictionary" />
         <item itemvalue="Python.in 시퀀스" />
         <item itemvalue="Python.HANGMAN게임(splitlines,pop)" />
         <item itemvalue="Python.최소, 최댓값함수만들기(argument)" />
-        <item itemvalue="Python.가위바위보게임(random)" />
       </list>
     </recent_temporary>
   </component>
@@ -299,6 +299,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#test/0.0.1920.1040@0.0.1920.1040" timestamp="1600690465875" />
+    <state x="666" y="111" key="#로그인(dictionary)" timestamp="1601648266384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="111" key="#로그인(dictionary)/0.0.1920.1040@0.0.1920.1040" timestamp="1601648266384" />
     <state x="666" y="111" key="#상하좌우" timestamp="1600765958141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,22 +327,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601555276080" />
-    <state width="1899" height="193" key="GridCell.Tab.0.bottom" timestamp="1601645481544">
+    <state width="1899" height="193" key="GridCell.Tab.0.bottom" timestamp="1601648447147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601645481544" />
-    <state width="1899" height="193" key="GridCell.Tab.0.center" timestamp="1601645481544">
+    <state width="1899" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601648447147" />
+    <state width="1899" height="193" key="GridCell.Tab.0.center" timestamp="1601648447147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601645481544" />
-    <state width="1899" height="193" key="GridCell.Tab.0.left" timestamp="1601645481544">
+    <state width="1899" height="193" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601648447147" />
+    <state width="1899" height="193" key="GridCell.Tab.0.left" timestamp="1601648447147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601645481544" />
-    <state width="1899" height="193" key="GridCell.Tab.0.right" timestamp="1601645481544">
+    <state width="1899" height="193" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601648447147" />
+    <state width="1899" height="193" key="GridCell.Tab.0.right" timestamp="1601648447147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601645481544" />
+    <state width="1899" height="193" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601648447147" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1601476532141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
