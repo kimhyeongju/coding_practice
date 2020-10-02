@@ -26,6 +26,7 @@ def print_result(result):
     else:
         print("로그인 실패")
 
+
 def main():
     result = False
 
@@ -35,5 +36,17 @@ def main():
         if result:
             break
     print_result(result)
+
+
+def sign_up():
+    while True:
+        new_id = input("ID 입력: ")
+        if new_id in users.keys():
+            print("이미 존재하는 ID")
+        else:
+            new_pw = input("PW 입력: ")
+            users[new_id] = new_pw
+            break
+
 
 main()
