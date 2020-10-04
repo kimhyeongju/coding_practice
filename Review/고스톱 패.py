@@ -17,4 +17,15 @@ def assign(users, deck):
     for _ in range(7):
         for user_card in users:
             card = deck.pop(0)
-            user_card.append(card)
+            user_card.append(card)  # users에 7개의 서로 다른 카드가 할당
+
+# 결과 출력
+def print_result(deck,users):
+    print("사용자 패")
+    for ix, user_cards in enumerate(users,1):
+        print(f"{ix}번째 사용자: ", user_cards)
+    print(f"남은 패({len(deck)}장)")
+    print(deck)
+
+
+
