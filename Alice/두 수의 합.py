@@ -9,19 +9,38 @@
 """
 
 # 내가 풀은 것
-def twoSum(nums, target):
-    for i in nums:
-        for j in range(len(nums)):
-            if nums[j] + i == target: 
-                return i,nums[j]
+# def twoSum(nums, target):
+#     for i in nums:
+#         for j in range(len(nums)):
+#             if nums[j] + i == target:
+#                 return i,nums[j]
+#
+#
+# def main():
+#     print(twoSum([2, 8, 19, 37, 4, 5], 12))
+#
+# if __name__ == "__main__":
+#     main()
 
+def twoSum(nums, target):
+    nums.sort()
+    i = 0
+    j = len(nums) - 1
+
+    while i < j:
+        sum = nums[i] + nums[j]
+        if sum == target:
+            return nums[i], nums[j]
+        elif sum > target:
+            j -= 1
+        else:
+            i += 1
 
 def main():
-    print(twoSum([2, 8, 19, 37, 4, 5], 12))
+    print(twoSum([2, 8, 19, 37, 4, 5], 12))  # (4, 8) 혹은 (8, 4)가 리턴되어야 합니다.
+
 
 if __name__ == "__main__":
     main()
 
 main()
-
-
