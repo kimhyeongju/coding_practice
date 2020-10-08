@@ -8,11 +8,20 @@
 출력의 순서는 상관 없습니다. 위 예시의 경우, 8,4 와 4,8은 둘 다 정답으로 인정합니다.
 """
 
+# 내가 풀은 것
 def twoSum(nums, target):
-    return 0,0
+    for i in nums:
+        for j in range(len(nums)):
+            if nums[j] + i == target: 
+                return i,nums[j]
+
 
 def main():
     print(twoSum([2, 8, 19, 37, 4, 5], 12))
 
 if __name__ == "__main__":
     main()
+
+main()
+
+
