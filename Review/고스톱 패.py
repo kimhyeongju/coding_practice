@@ -30,7 +30,7 @@ def print_result(deck,users):
 def main():
     user_num = int(input("게임 인원수: "))
     deck, users = init(user_num)
-    assign(deck, users)
+    assign(users, deck)
     print_result(deck, users)
 
 main()
