@@ -9,11 +9,13 @@
 """
 
 def maxTwoDiff(nums):
-    nums.sort()
-    max_index = len(nums) -1
-    min_index = 0
-    result = nums[max_index] - nums[min_index]
-    return result
+    # nums.sort()
+    # max_index = len(nums) -1
+    # min_index = 0
+    # result = nums[max_index] - nums[min_index]
+    # return result
+
+    return max(nums)-min(nums)
 
 def main():
     print(maxTwoDiff([2, 8, 19, 37, 4, 5, 12, 50, 1, 34, 23])) # 49가 리턴되어야 합니다.
