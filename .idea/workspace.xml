@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Alice/가장 큰 부분합 구하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/coding_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/가장 큰 부분합 구하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alice/가장 큰 부분합 구하기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <recent name="C:\Users\JinHengZhu\Desktop\coding_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.가장 큰 두수의 차">
+  <component name="RunManager" selected="Python.가장 큰 부분합 구하기">
     <configuration name="가장 큰 두수의 차" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="로그인(dictionary)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="가장 큰 부분합 구하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\JinHengZhu\Anaconda3\envs\coding_practice\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Review" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Alice" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Review/로그인(dictionary).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alice/가장 큰 부분합 구하기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +163,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.가장 큰 두수의 차" />
+        <item itemvalue="Python.가장 큰 부분합 구하기" />
         <item itemvalue="Python.고스톱 패" />
         <item itemvalue="Python.zip()" />
         <item itemvalue="Python.enumerate()" />
-        <item itemvalue="Python.로그인(dictionary)" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +208,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#argument(최소,최댓값)/0.0.1920.1040@0.0.1920.1040" timestamp="1601474953159" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602599464904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602599464904" />
     <state x="666" y="111" key="#comprehension" timestamp="1600959334095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,6 +252,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#가장_큰_두수의_차/0.0.1920.1040@0.0.1920.1040" timestamp="1602334136904" />
+    <state x="666" y="111" key="#가장_큰_부분합_구하기" timestamp="1602595388559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="111" key="#가장_큰_부분합_구하기/0.0.1920.1040@0.0.1920.1040" timestamp="1602595388559" />
     <state x="666" y="111" key="#고스톱_패" timestamp="1601821701087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,22 +288,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601555276080" />
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1602334143119">
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1602600649507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602334143119" />
-    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1602334143118">
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602600649507" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1602600649507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602334143118" />
-    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1602334143117">
+    <state width="1899" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602600649507" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1602600649507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602334143117" />
-    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1602334143118">
+    <state width="1899" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602600649507" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1602600649507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602334143118" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602600649507" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1601476532141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -311,9 +320,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601476532141" />
-    <state x="178" y="106" key="SettingsEditor" timestamp="1600664047101">
+    <state x="178" y="106" key="SettingsEditor" timestamp="1602599732789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="178" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600664047101" />
+    <state x="178" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602599732789" />
   </component>
 </project>
