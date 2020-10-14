@@ -7,7 +7,13 @@
 """
 
 def removeDuplicate(nums):
-    return []
+    arr = []
+    for i in nums:
+        if i not in arr:
+            arr.append(i)
+        else:
+            pass
+    return arr
 
 def main():
     print(removeDuplicate([1, 1, 2, 2, 2, 2, 5, 7, 7, 8])) # [1, 2, 5, 7, 8]을 리턴해야 합니다
