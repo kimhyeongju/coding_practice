@@ -9,12 +9,17 @@ k 는 배열의 길이 n 보다 작다고 가정합시다.
 (추가) 공간 복잡도 O(1)으로 풀 수 있는 방법도 생각 해 봅시다. 이때 주어진 함수 partialReverse를 활용해도 됩니다.
 """
 
-def rotateArray(nums, k):
-    arr = nums[-k:]
-    temp = nums[:-k]
-    arr.extend(temp)
-    return arr
+# def rotateArray(nums, k):
+#     arr = nums[-k:]
+#     temp = nums[:-k]
+#     arr.extend(temp)
+#     return arr
 
+def rotateArray(nums, k):
+    partialReverse(nums,0,len(nums)-1)  # [9,8,7,6,5,4,3,2,1]
+    partialReverse(nums,0,k-1)          # [6,7,8,9,5,4,3,2,1]
+    partialReverse(nums,k,len(nums)-1)  # [6,7,8,9,1,2,3,4,5]
+    return nums
 
 # 다음 함수는 추가적인 공간 사용 없이 배열의 일부를 뒤집어 주는 함수입니다.
 # 필요하다면 사용하세요.
