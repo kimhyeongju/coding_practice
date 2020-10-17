@@ -7,7 +7,21 @@
 
 이 문제는 공간 복잡도를 고려하면서 풀어 보도록 합시다. 공간 복잡도 O(1)으로 이 문제를 풀 수 있을까요?
 """
+# def moveZerosToEnd(nums):
+#     for i in nums:
+#         if i == 0:
+#             nums.remove(0)
+#             nums.append(0)
+#     return nums
 def moveZerosToEnd(nums):
+    currentPosition = 0
+
+    for i in range(len(nums)):
+        if nums[i] != 0:
+            nums[currentPosition] = nums[i]
+            if i != currentPosition:
+                nums[i] = 0
+            currentPosition += 1
     return nums
 
 def main():
