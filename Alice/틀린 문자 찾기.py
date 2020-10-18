@@ -10,11 +10,18 @@
 """
 
 def findDifference(str1, str2):
-    return ''
+    # count = dict()
+    # for i in str1:
+    #     count[i] = count.get(i,0) + 1
+    str1List = list(str1)
+    str2List = list(str2)
+    for i in str1List:
+        str2List.remove(i)
+    return str2List[0]
 
 
 def main():
-    print(findDifference("apple", "azlppe"))
+    print(findDifference("apple", "azlppe"))    # z가 출력
 
 
 if __name__ == "__main__":
