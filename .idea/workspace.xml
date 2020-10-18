@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Alice/아나그램 탐지.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alice/배열의 회전.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alice/배열의 회전.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="C:\Users\JinHengZhu\Desktop\coding_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.배열의 회전">
+  <component name="RunManager" selected="Python.0 이동시키기">
     <configuration name="고스톱 패" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,7 +183,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.배열의 회전" />
         <item itemvalue="Python.0 이동시키기" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.중복된 수 제거하기" />
@@ -309,22 +308,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601555276080" />
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1602945202144">
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1602946271239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602945202144" />
-    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1602945202143">
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602946271239" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1602946271239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602945202143" />
-    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1602945202143">
+    <state width="1899" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602946271239" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1602946271238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602945202143" />
-    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1602945202143">
+    <state width="1899" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602946271238" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1602946271239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602945202143" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602946271239" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1601476532141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
