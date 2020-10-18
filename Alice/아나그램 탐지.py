@@ -10,7 +10,20 @@ iamlordvoldemort 와 tommarvoloriddle 은 아나그램입니다. True를 리턴�
 """
 
 def isAnagram(str1, str2):
-    return ''
+    temp1, temp2 = [], []
+    for i in str1:
+        temp1.append(i)
+
+    for i in str2:
+        temp2.append(i)
+
+    temp1.sort()
+    temp2.sort()
+
+    if temp1 == temp2:
+        return True
+    else:
+        return False
 
 
 def main():
