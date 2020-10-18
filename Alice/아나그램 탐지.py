@@ -9,21 +9,29 @@ iamlordvoldemort 와 tommarvoloriddle 은 아나그램입니다. True를 리턴�
 문자열의 모든 문자는 영어 소문자라고 가정합시다.
 """
 
+# def isAnagram(str1, str2):
+#     # temp1, temp2 = [], []
+#     # for i in str1:
+#     #     temp1.append(i)
+#     #
+#     # for i in str2:
+#     #     temp2.append(i)
+#     #
+#     # temp1.sort()
+#     # temp2.sort()
+#     #
+#     # if temp1 == temp2:
+#     #     return True
+#     # else:
+#     #     return False
 def isAnagram(str1, str2):
-    temp1, temp2 = [], []
-    for i in str1:
-        temp1.append(i)
+    str1List = list(str1)
+    str2List = list(str2)
 
-    for i in str2:
-        temp2.append(i)
+    str1List.sort()
+    str2List.sort()
 
-    temp1.sort()
-    temp2.sort()
-
-    if temp1 == temp2:
-        return True
-    else:
-        return False
+    return str1List == str2List
 
 
 def main():

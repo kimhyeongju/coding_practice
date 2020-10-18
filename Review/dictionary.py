@@ -9,6 +9,14 @@ print(dic.get('boy'))
 print(dic.get('girl'))
 print(dic.get('girl','사전에 없는 단어입니다.'),'\n')
 
+# get을 이용하여 count하기
+count = dict()
+names = ['kim','lee','yu','choi','kim','jeong','lee','park']
+
+for name in names:
+    count[name] = count.get(name,0) + 1
+print(count,'\n')
+
 # 수정, 추가, 삭제
 dic['boy'] = '남자아이' #수정
 dic['girl'] = '소녀' #추가
