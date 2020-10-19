@@ -1,10 +1,3 @@
-"""
-연결 리스트 클래스 LinkedList와, 그 노드 클래스 Node가 주어졌습니다.
-
-연결 리스트 객체가 주어졌을때 이를 배열로 변환해서 반환하는 함수 toArray와,
-배열이 주어졌을때 이를 연결 리스트로 변환해서 반환하는 함수 toLinkedList를 구현 해 봅시다.
-"""
-
 # 연결 리스트의 노드. 단일 연결 리스트의 경우입니다.
 class Node:
     def __init__(self, val):
@@ -30,18 +23,33 @@ class LinkedList:
         while node:
             toPrint.append(str(node.val))
             node = node.next
+
         return "->".join(toPrint)
 
+####################################################################################################################################
 
 # 주어진 연결 리스트 ll을 배열로 변환해 봅시다.
 # 이때 연결 리스트 LinkedList의 객체가 입력으로 주어진다고 가정합니다.
 def toArray(llNode):
-    return []
+    arr = []
+    it = llNode.head
+
+    while it != llNode.tail:
+        arr.append(it.val)
+        it = it.next
+    arr.append(it.val)
+
+    return arr
 
 
 # 주어진 배열을 연결 리스트로 변환 해 봅시다.
 def toLinkedList(lst):
-    return None
+    llNode = LinkedList(Node(lst[0]))
+
+    for i in lst[1:]:
+        llNode.addToEnd(Node(i))
+
+    return llNode
 
 
 def example():
@@ -53,15 +61,13 @@ def example():
     print(ll.head)
     print(ll.tail)
 
-
 def main():
     example()
-    nums = [2, 8, 19, 37, 4, 5]
+    nums = [2,8,19,37,4,5]
     ll = toLinkedList(nums)
     print(ll)
     lst = toArray(ll)
     print(lst)
-
 
 if __name__ == "__main__":
     main()
