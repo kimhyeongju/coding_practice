@@ -7,7 +7,8 @@
 시간 복잡도를 고려하면서 여러가지 방법으로 문제를 풀어 봅시다.
 """
 def thirdMax(nums):
-    return 0
+    nums.sort(reverse=True)
+    return nums[2]
 
 def main():
     print(thirdMax([2, 8, 19, 37, 4, 5, 12, 50, 1, 34, 23])) # should return 34
