@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Alice/단어 패턴.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alice/chapter3/연결 리스트-배열 변환하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alice/세번째로 큰 숫자 찾아내기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alice/세번째로 큰 숫자 찾아내기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/0 이동시키기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/가장 큰 두수의 차.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/가장 큰 부분합 구하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/단어 패턴.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/두 수의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/배열의 회전.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/세번째로 큰 숫자 찾아내기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/아나그램 탐지.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/자동차 객체.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/중복된 수 제거하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/중복된 하나의 숫자 찾아내기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/틀린 문자 찾기.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +67,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.단어 패턴">
-    <configuration name="세번째로 큰 숫자 찾아내기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="틀린 문자 찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alice/세번째로 큰 숫자 찾아내기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alice/틀린 문자 찾기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="틀린 문자 찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="세번째로 큰 숫자 찾아내기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,7 +184,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alice/틀린 문자 찾기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alice/세번째로 큰 숫자 찾아내기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +220,6 @@
         <item itemvalue="Python.세번째로 큰 숫자 찾아내기" />
         <item itemvalue="Python.틀린 문자 찾기" />
         <item itemvalue="Python.dictionary" />
-        <item itemvalue="Python.아나그램 탐지" />
       </list>
     </recent_temporary>
   </component>
