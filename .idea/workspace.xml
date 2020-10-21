@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Alice/chapter3/연결 리스트에서 노드 삭제하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alice/chapter3/연결 리스트-배열 변환하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alice/chapter3/연결 리스트-배열 변환하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alice/chapter3/연결 리스트에서 노드 삭제하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alice/chapter3/연결 리스트에서 노드 삭제하기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

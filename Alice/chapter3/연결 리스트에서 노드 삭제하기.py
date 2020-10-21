@@ -48,7 +48,23 @@ def toLinkedList(lst):
 ####################################################################################################################################
 
 def deleteNode(ll, valToDelete):
-    return None
+    if ll.head.val == valToDelete:
+        ll.head = ll.head.next
+
+    curNode = ll.head
+    nextNode = curNode.next
+
+    while nextNode:
+        if nextNode.val == valToDelete:
+            curNode.next = nextNode.next  # 여기서 삭제
+
+            if nextNode == ll.tail:
+                ll.tail = curNode
+
+            break
+
+        curNode = curNode.next
+        nextNode = curNode.next
 
 
 def main():
