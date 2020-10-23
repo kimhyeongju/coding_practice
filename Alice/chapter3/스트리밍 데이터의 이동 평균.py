@@ -24,30 +24,30 @@ print(ma.nextVal(4))
 print(ma.nextVal(5))
 # (37 + 4 + 5) / 3 = 15.333333333333334 를 반환합니다.
 """
-
-import queue
-
+arr = []
 class MovingAvg():
     def __init__(self, size):
         self.size = size
 
     def nextVal(self, num):
-        return 0
-
-
-def queueExample():
-    q = queue.Queue()
-    q.put(1)
-    q.put(2)
-    print(q.qsize())
-    print(q.get())
-    print(q.qsize())
-    print(q.get())
+        arr.append(num)
+        total = 0
+        if len(arr) < self.size:
+            for i in arr:
+                total += i
+            avg_ = total / len(arr)
+            return avg_
+        
+        else:
+            end = arr.index(num)
+            start = end - self.size + 1
+            for i in range(self.size):
+                total += arr[start + i]
+            avg_ = total / self.size
+            return avg_
 
 
 def main():
-    queueExample()
-
     nums = [2, 8, 19, 37, 4, 5]
     ma = MovingAvg(3)
     results = []
