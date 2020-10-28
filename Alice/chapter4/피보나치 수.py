@@ -15,16 +15,26 @@ F(10) = F(9) + F(8) = 21 + 34 = 55 임을 확인 할 수 잇습니다.
 재귀 방법으로 구현 해 보도록 합시다. 메모이제이션도 활용 해 보도록 합시다.
 """
 
+
 class Fib():
     def __init__(self):
         self.memo = {}
 
     def fibonacci(self, num):
-        return 0
+        if num == 0:
+            return 0
+        elif num == 1:
+            return 1
+        elif num in self.memo:
+            return self.memo[num]
+
+        self.memo[num] = self.fibonacci(num - 1) + self.fibonacci(num - 2)
+        return self.memo[num]
 
 
 def main():
-    print(fibonacci(10))  # should return 55
+    f = Fib()
+    print(f.fibonacci(10))  # should return 55
 
 
 if __name__ == "__main__":
