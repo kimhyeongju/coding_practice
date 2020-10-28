@@ -10,7 +10,10 @@
 """
 
 def factorial(num):
-    return 0
+    total=1
+    for i in range(1,num+1):
+        total = i * total
+    return total
 
 def main():
     print(factorial(5)) # should return 120
