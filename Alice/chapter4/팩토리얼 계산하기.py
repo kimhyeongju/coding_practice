@@ -10,10 +10,15 @@
 """
 
 def factorial(num):
-    total=1
-    for i in range(1,num+1):
-        total = i * total
-    return total
+    # total=1
+    # for i in range(1,num+1):
+    #     total = i * total
+    # return total
+
+    # recursion
+    if num == 0:
+        return 1
+    return factorial(num-1) * num
 
 def main():
     print(factorial(5)) # should return 120
