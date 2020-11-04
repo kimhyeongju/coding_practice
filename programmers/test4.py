@@ -1,6 +1,6 @@
 def solution(answers):
     arr = [0,0,0]
-    temp1 = [2,1,2,3,2,4,2,5,2,1]
+    temp1 = [2,1,2,3,2,4,2,5]
     temp2 = [3,3,1,1,2,2,4,4,5,5]
     student1, student2, student3 = [], [], []
     prob_num = len(answers)
