@@ -6,7 +6,7 @@ def solution(answers):
     prob_num = len(answers)
     for i in range(prob_num):
         student1.append((i%5)+1)
-        student2.append(temp1[i%10])
+        student2.append(temp1[i%8])
         student3.append(temp2[i%10])
 
     for i in range(prob_num):
