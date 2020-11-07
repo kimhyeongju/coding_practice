@@ -41,7 +41,7 @@ class LogicGate:
     def train(self):
         f = lambda x : self.__loss_func()
 
-        print("Initial erro value = ", self.error_val())
+        print("Initial error value = ", self.error_val())
 
         for step in range(8001):
             self.__w -= self.__learning_rate * numerical_derivative(f, self.__w)
@@ -61,3 +61,10 @@ class LogicGate:
             result = 0
 
         return y, result
+
+
+xdata = np.array([[0,0],[0,1],[1,0],[1,1]])
+tdata = np.array([0,0,0,1])
+
+AND_obj = LogicGate("AND_GATE", xdata, tdata)
+AND_obj.train()
