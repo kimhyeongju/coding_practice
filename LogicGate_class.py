@@ -63,23 +63,23 @@ class LogicGate:
         return y, result
 
 
-xdata = np.array([[0,0],[0,1],[1,0],[1,1]])
-and_data = np.array([0,0,0,1])
-or_data = np.array([0,1,1,1])
-
-AND_obj = LogicGate("AND_GATE", xdata, and_data)
-OR_obj = LogicGate("OR_GATE", xdata, or_data)
-
-AND_obj.train()
-OR_obj.train()
-
-print('')
-print(AND_obj.name, '\n')
-for input_data in xdata:
-    sigmoid_val, local_val = AND_obj.predict(input_data)
-    print(input_data, ' = ', local_val, '\n')
-
-print(OR_obj.name, '\n')
-for input_data in xdata:
-    sigmoid_val, local_val = OR_obj.predict(input_data)
-    print(input_data, ' = ', local_val, '\n')
+# xdata = np.array([[0,0],[0,1],[1,0],[1,1]])
+# and_data = np.array([0,0,0,1])
+# or_data = np.array([0,1,1,1])
+#
+# AND_obj = LogicGate("AND_GATE", xdata, and_data)
+# OR_obj = LogicGate("OR_GATE", xdata, or_data)
+#
+# AND_obj.train()
+# OR_obj.train()
+#
+# print('')
+# print(AND_obj.name, '\n')
+# for input_data in xdata:
+#     sigmoid_val, local_val = AND_obj.predict(input_data)
+#     print(input_data, ' = ', local_val, '\n')
+#
+# print(OR_obj.name, '\n')
+# for input_data in xdata:
+#     sigmoid_val, local_val = OR_obj.predict(input_data)
+#     print(input_data, ' = ', local_val, '\n')
