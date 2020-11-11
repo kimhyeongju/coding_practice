@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="" />
+    <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/coding_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLearning/MNIST.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/MNIST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLearning/numerical_derivative.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +54,14 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="coding_practice" sdk-home="C:\Users\superuser\anaconda3\envs\coding_practice\python.exe">
+        <option name="mySdkHome" value="C:\Users\superuser\anaconda3\envs\coding_practice\python.exe" />
+        <option name="myModuleName" value="coding_practice" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JinHengZhu\Desktop\coding_practice\Alice\Deep_learning1" />
@@ -56,8 +69,8 @@
       <recent name="C:\Users\JinHengZhu\Desktop\coding_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.iterator">
-    <configuration name="아나그램 탐지" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.LogicGate_class">
+    <configuration name="LogicGate_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +78,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Alice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alice/아나그램 탐지.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/LogicGate_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\superuser\anaconda3\envs\coding_practice\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/MNIST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NeuralNetwork" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/NeuralNetwork.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,32 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XOR.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="challenge2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="coding_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/challenge2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/XOR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,55 +175,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logicGate_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="coding_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\JinHengZhu\Desktop\coding_practice\logicGate_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logicGate_deepLearning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="coding_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logicGate_deepLearning.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.iterator" />
+      <item itemvalue="Python.MNIST" />
+      <item itemvalue="Python.NeuralNetwork" />
+      <item itemvalue="Python.XOR" />
+      <item itemvalue="Python.LogicGate_class" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.iterator" />
+        <item itemvalue="Python.LogicGate_class" />
+        <item itemvalue="Python.NeuralNetwork" />
         <item itemvalue="Python.XOR" />
-        <item itemvalue="Python.logicGate_deepLearning" />
-        <item itemvalue="Python.logicGate_class" />
-        <item itemvalue="Python.challenge2" />
+        <item itemvalue="Python.MNIST" />
+        <item itemvalue="Python.iterator" />
       </list>
     </recent_temporary>
   </component>
@@ -232,9 +231,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="111" key="#argument(최소,최댓값)/0.0.1920.1040@0.0.1920.1040" timestamp="1601474953159" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604496972027">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="331" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604991333703">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="331" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604991333703" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604496972027" />
     <state x="666" y="111" key="#comprehension" timestamp="1600959334095">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -312,29 +312,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="826" y="266" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604496921680" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601555276080">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1604990709413">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604990709413" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601555276080" />
-    <state width="1364" height="165" key="GridCell.Tab.0.bottom" timestamp="1604974190264">
+    <state width="1515" height="97" key="GridCell.Tab.0.bottom" timestamp="1604991961144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604974190264" />
+    <state width="1515" height="97" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604991961144" />
     <state width="1899" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622111" />
-    <state width="1364" height="165" key="GridCell.Tab.0.center" timestamp="1604974190264">
+    <state width="1515" height="97" key="GridCell.Tab.0.center" timestamp="1604991961143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604974190264" />
+    <state width="1515" height="97" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604991961143" />
     <state width="1899" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622110" />
-    <state width="1364" height="165" key="GridCell.Tab.0.left" timestamp="1604974190264">
+    <state width="1515" height="97" key="GridCell.Tab.0.left" timestamp="1604991961143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604974190264" />
+    <state width="1515" height="97" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604991961143" />
     <state width="1899" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622110" />
-    <state width="1364" height="165" key="GridCell.Tab.0.right" timestamp="1604974190264">
+    <state width="1515" height="97" key="GridCell.Tab.0.right" timestamp="1604991961144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604974190264" />
+    <state width="1515" height="97" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604991961144" />
     <state width="1899" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622111" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1604583606892">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -352,10 +353,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604583606892" />
-    <state x="142" y="84" key="SettingsEditor" timestamp="1604934702379">
+    <state x="205" y="44" key="SettingsEditor" timestamp="1604991510713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="142" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604934702379" />
+    <state x="205" y="44" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604991510713" />
     <state x="178" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604497438984" />
     <state x="13" y="324" width="672" height="678" key="search.everywhere.popup" timestamp="1604762961917">
       <screen x="0" y="0" width="1920" height="1040" />
