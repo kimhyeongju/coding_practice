@@ -46,3 +46,12 @@ print('initial W =', W.numpy())
 for step in range(2):
     W = W + 1.0
     print('step= ', step, ', W =', W.numpy())
+print('=============================')
+
+def tensor_sum(x,y):
+    return x+y
+
+result = tensor_sum(a,b)
+
+print(type(result))
+print(result.numpy())
