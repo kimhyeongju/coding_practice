@@ -1,6 +1,6 @@
 from functions1 import sigmoid
 import numpy as np
-import pandas as pd
+import pandas_ex01 as pd
 import matplotlib.pyplot as plt
 
 data = [[2, 0], [4, 0], [6, 0], [8, 1], [10, 1], [12, 1], [14, 1]]
