@@ -22,3 +22,10 @@ class NotepadApp(Application):
 
     def exit(self):
         sys.exit(0)
+
+def main():
+    app = NotepadApp()
+    app.run()
+
+if __name__ == "__main__":   # 모듈로 사용할때 main()이 실행되지 않게 하기 위해
+    main()
