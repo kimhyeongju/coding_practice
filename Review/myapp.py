@@ -13,3 +13,23 @@ class MenuItem:
 
     def run(self):
         self.action()
+
+class Menu:
+    def __init__(self):
+        self.menus = []
+
+    def add(self, menu_item):
+        self.menus.append(menu_item)
+
+    def print(self):
+        print("[메뉴]", end="")
+        for i, menu in enumerate(self.menus):
+            print(f"{i}:{menu.title} ", end="")
+        print()
+
+    def run(self, select):
+        if select >= len(self.menus):
+            print("잘못된 메뉴 선택입니다.")
+            return
+        menu_item = self.menus[select]
+        menu_item.run()
