@@ -33,3 +33,20 @@ class Menu:
             return
         menu_item = self.menus[select]
         menu_item.run()
+
+class Application:
+    def __init__(self):
+        self.menu = Menu()
+        self.create_menu(self.menu)
+
+    def create_menu(self, menu):
+        pass
+
+    def run(self):
+        while True:
+            self.menu.print()
+            sel = int(input("선택] "))
+            self.menu.run(sel)
+
+if __name__ == "__main__":
+    pass
