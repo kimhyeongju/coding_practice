@@ -1,5 +1,5 @@
 try:
-    f = open("test1/t.txt", "rt", encoding='utf8')
+    f = open("test1.txt", "rt", encoding='utf8')
     text = f.read()
     print(text)
 except FileNotFoundError:
