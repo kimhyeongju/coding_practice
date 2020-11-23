@@ -19,4 +19,18 @@ def read2():
     f.close()
     print(text)
 
-read2()
+def read3():
+    rows = f.readlines()
+
+    for row in rows:
+        print(row, end='')
+    f.close()
+
+def read4():
+    rows = f.readlines()  #개행문자를 추가
+
+    for ix, row in enumerate(rows, 1):
+        print(f"{ix}:{row}", end='')
+    f.close()
+
+read4()
