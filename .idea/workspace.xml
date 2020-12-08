@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e38c58df-31ae-4a75-b69a-4425ab41d8bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review/openCV_ex01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Review/openCV_ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Review/openCV_ex03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="C:\Users\JinHengZhu\Desktop\coding_practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.openCV_ex01">
+  <component name="RunManager" selected="Python.openCV_ex02">
     <configuration name="LogicGate_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,27 +80,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/LogicGate_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="coding_practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\superuser\anaconda3\envs\coding_practice\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/MNIST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,20 +151,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="openCV_ex02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coding_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Review" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Review/openCV_ex02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.MNIST" />
       <item itemvalue="Python.NeuralNetwork" />
       <item itemvalue="Python.XOR" />
       <item itemvalue="Python.LogicGate_class" />
       <item itemvalue="Python.openCV_ex01" />
+      <item itemvalue="Python.openCV_ex02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.openCV_ex02" />
         <item itemvalue="Python.openCV_ex01" />
         <item itemvalue="Python.LogicGate_class" />
         <item itemvalue="Python.NeuralNetwork" />
         <item itemvalue="Python.XOR" />
-        <item itemvalue="Python.MNIST" />
       </list>
     </recent_temporary>
   </component>
@@ -315,25 +314,25 @@
     </state>
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604990709413" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601555276080" />
-    <state width="1515" height="217" key="GridCell.Tab.0.bottom" timestamp="1607432578461">
+    <state width="1515" height="217" key="GridCell.Tab.0.bottom" timestamp="1607432842830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607432578461" />
+    <state width="1515" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607432842830" />
     <state width="1899" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622111" />
-    <state width="1515" height="217" key="GridCell.Tab.0.center" timestamp="1607432578461">
+    <state width="1515" height="217" key="GridCell.Tab.0.center" timestamp="1607432842830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607432578461" />
+    <state width="1515" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607432842830" />
     <state width="1899" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622110" />
-    <state width="1515" height="217" key="GridCell.Tab.0.left" timestamp="1607432578461">
+    <state width="1515" height="217" key="GridCell.Tab.0.left" timestamp="1607432842830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607432578461" />
+    <state width="1515" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607432842830" />
     <state width="1899" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622110" />
-    <state width="1515" height="217" key="GridCell.Tab.0.right" timestamp="1607432578461">
+    <state width="1515" height="217" key="GridCell.Tab.0.right" timestamp="1607432842830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607432578461" />
+    <state width="1515" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607432842830" />
     <state width="1899" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604764622111" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1604583606892">
       <screen x="0" y="0" width="1920" height="1040" />
