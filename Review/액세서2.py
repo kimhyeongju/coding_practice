@@ -15,3 +15,17 @@ class Date:
 today = Date(8)
 today.month = 15
 print(today.month)
+
+# hidden
+class Score:
+    def __init__(self, math):
+        self.__math = math
+
+    def getscore(self):
+        return self.__math
+
+    def setscore(self, math):
+        if 0 <= math <= 100:
+            self.__math = math
+
+    math = property(getscore, setscore)
