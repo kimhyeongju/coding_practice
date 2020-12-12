@@ -1,5 +1,5 @@
 # getset
-class Date():
+class Date:
     def __init__(self, month):
         self.month = month
 
@@ -15,7 +15,7 @@ today.setmonth(15)
 print(today.getmonth())
 
 # property
-class Score():
+class Score:
     def __init__(self, math):
         self.inner_math = math
 
