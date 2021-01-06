@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71edba55-ecd6-4a90-9589-4a067b5fd218" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../2016년.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3진법 뒤집기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../k번째 수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../가운데 글자 가져오기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../같은 숫자는 싫어.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../나누어 떨어지는 숫자 배열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../내적.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../두 정수 사이의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문자열 내 p와 y의 개수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문자열 내림차순으로 배치하기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../문자열 다루기 기본.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../소수 찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../시저 암호.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../약수의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../이상한 문자 만들기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../체육복.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1mhB6n6vHH6Ok4PJnae5bjJopb8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71edba55-ecd6-4a90-9589-4a067b5fd218" name="Default Changelist" comment="" />
+      <created>1609935787223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609935787223</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
