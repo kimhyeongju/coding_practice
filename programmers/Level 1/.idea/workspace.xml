@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71edba55-ecd6-4a90-9589-4a067b5fd218" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2016년.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3진법 뒤집기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../k번째 수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../가운데 글자 가져오기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../같은 숫자는 싫어.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../나누어 떨어지는 숫자 배열.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../내적.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../두 정수 사이의 합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문자열 내 p와 y의 개수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문자열 내림차순으로 배치하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../문자열 다루기 기본.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../소수 찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../시저 암호.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../약수의 합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../이상한 문자 만들기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../체육복.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Level 1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Level 1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +22,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RunManager">
+    <configuration name="행렬의 덧셈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Level 1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/행렬의 덧셈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.행렬의 덧셈" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="71edba55-ecd6-4a90-9589-4a067b5fd218" name="Default Changelist" comment="" />
@@ -57,5 +73,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
