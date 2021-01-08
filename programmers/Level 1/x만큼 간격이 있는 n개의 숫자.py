@@ -7,4 +7,11 @@ n은 1000 이하인 자연수입니다.
 """
 def solution(x, n):
     answer = []
+    s = x
+    for _ in range(n):
+        answer.append(x)
+        x = x+s
     return answer
+
+a = solution(2,5)
+print(a)
