@@ -1,38 +1,68 @@
 import random
 
-win_num = [9, 18 , 19, 30, 34, 40]
+lastest = [9, 10, 15, 29, 33, 37]   # 수정
+win_num = [9, 18, 19, 30, 34, 40]
+
 
 class Lottery:
     def __init__(self):
-        self.rand_num = []
-        self.count = 1
+        return
 
     def num_generator(self):
         self.array = random.sample(range(1,46), 6)
         self.array.sort()
         return self.array
 
-    def filter(self,array):
-        pass
- 
-    def run(self, times):
-        while True:
-            self.rand_num = Lottery.num_generator(self)
+    def num_generator2(self):
+        i = random.randint(0,6)
+        r = lastest[i]
+        self.array = random.sample(range(1, 46), 6)
 
-            if win_num == self.rand_num:
-                print(f"succeed in {self.count}")
-                break
+        if r in self.array:
+            self.array.sort()
+            return self.array
+        else:
+            self.array.pop()
+            self.array.append(r)
+            self.array.sort()
+            return self.array
 
-            elif self.count >= times:
-                break
-
+    def filter(self, array):
+        for i in range(4):
+            if array[i] + 1 == array[i+1] and array[i+1] + 1 == array[i+2]:
+                return True
             else:
-                self.count += 1
-                if self.count % 1000 == 0:
-                    print(f"count: {self.count},  random number: {self.rand_num}")
+                continue
+        return False
+ 
+    def run(self, maximum ,times=1):
+        temp = []
+        count = 1
+        for _ in range(times):
+            while True:
+                rand_nums = Lottery.num_generator(self)
+
+                if Lottery.filter(self, rand_nums) == True:
+                    pass
+                else:
+                    if win_num == rand_nums:
+                        print(f"succeed in {count}, number: {rand_nums}")
+                        temp.append(count)
+                        break
+
+                    elif count >= maximum:
+                        print("failed")
+                        temp.append("fail")
+                        break
+
+                    else:
+                        count += 1
+                        if count % 50000 == 0:
+                            print(f"count: {count},  random number: {rand_nums}")
+        print(temp)
 
 
 test = Lottery()
-test.run(1000000)
+test.run(10000000,2)
 
-
+# fail, 3606711, 2960346, fail, 3375173, 976550, fail, 2016942
