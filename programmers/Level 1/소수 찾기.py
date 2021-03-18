@@ -24,15 +24,11 @@
 
 import numpy as np
 def solution(n):
-    answer = []
     arr = []
-    set_arr = []
-    prime = []
 
     for i in range(2, round(np.sqrt(n)) + 1):
         for k in range(i, n//i + 1):
             arr.append(i*k)
-
 
     set_arr = set(arr)
 
