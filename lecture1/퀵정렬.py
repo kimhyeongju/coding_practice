@@ -1,8 +1,4 @@
 def quickSort(arr, start, end):
-    pivot = 0
-    left_idx = 0
-    right_idx = 0
-    temp = 0
 
     if start >= end:    # 원소가 1개인 경우 그대로 두기
         return
@@ -40,6 +36,22 @@ def main(arr):
     return arr
 
 
-array = [10, 3, 4, 6, 8, 9, 1, 2, 5, 7]
+array = [3, 4, 6, 8, 9, 1, 2, 5, 7]
+"""
+3, 4, 6, 8, 9, 1, 2, 5, 7
+3, 1, 6, 8, 9, 4, 2, 5, 7
+3, 1, 2, 8, 9, 4, 6, 5, 7
+2, 1, 3, 8, 9, 4, 6, 5, 7   right_idx:2, left_idx:3
+2, 1
+1, 2
+       , 8, 9, 4, 6, 5, 7
+       , 8, 7, 4, 6, 5, 9
+       , 5, 7, 4, 6, 8, 9   right_idx:7, left_idx:8
+       , 5, 7, 4, 6
+       , 5, 4, 7, 6
+       , 4, 5, 7, 6
+             , 7, 6
+             , 6, 7
+"""
 a = main(array)
 print(a)
